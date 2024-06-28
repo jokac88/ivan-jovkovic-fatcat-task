@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 
 import { PanelShowcaseProps } from '@homework-task/types/AppTypes.ts';
-
 export const PanelShowcase = ({ items }: PanelShowcaseProps) => {
     return (
         <div className={clsx('flex', 'justify-center', 'items-center')}>

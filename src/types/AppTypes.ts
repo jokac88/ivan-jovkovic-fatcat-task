@@ -57,3 +57,11 @@ export interface LandingCardProps {
     text: string;
     link: string;
 }
+
+export type UserProps = {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+    phone: string;
+};
