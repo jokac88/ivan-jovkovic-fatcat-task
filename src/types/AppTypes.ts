@@ -65,3 +65,12 @@ export type UserProps = {
     email: string;
     phone: string;
 };
+
+export type ComponentProps = {
+    title: string;
+    description: string;
+    image: string;
+    className: string;
+    buttonText: string;
+    onClick: () => void;
+};

@@ -70,8 +70,7 @@ const config = {
         'react/prop-types': 'off',
         'react-hooks/exhaustive-deps': 'error',
         'no-undef': 'error',
-        // TODO: Skinuti // na kraju
-        // 'no-console': 'error',
+        'no-console': 'error',
         'no-unused-vars': 'error',
         'import/order': [
             'error',

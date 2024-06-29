@@ -21,12 +21,12 @@ export const ListComponent = () => {
 
                 setUserList(users);
             } catch (error) {
-                console.error(error);
+                alert(error);
             }
         };
 
         fetchData().catch((err) => {
-            console.error('Error fetching users:', err);
+            alert(`Error fetching users: ${err}`);
         });
     }, []);
 
