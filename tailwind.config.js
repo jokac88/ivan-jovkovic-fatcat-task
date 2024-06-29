@@ -10,10 +10,12 @@ export default {
         },
         colors: {
             primary: '#5C62F9',
+            primaryDark: '#3A40f8',
             mainGreen: '#35C89F',
             mainYellow: '#FFCC00',
             mainRed: '#F97F88',
             red: '#F97F88',
+            isError: '#EB1414',
             white: '#FFFFFF',
             black: '#01082D',
             gray80: '#343957',
